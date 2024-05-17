@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "presence",
+    "slug": "mobile",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconnew.png",
+    "splash": {
+      "image": "./assets/splashnew.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B405E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ufcquixada.presence"
+    }
+  }
+}
